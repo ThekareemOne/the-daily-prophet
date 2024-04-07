@@ -4,6 +4,7 @@ import Title from "./components/Title";
 import Interview from "./components/Interview";
 import Hero from "./components/Hero";
 import Article from "./components/Article";
+import Footer from "./components/Footer";
 
 export default function Newspaper() {
   return (
@@ -15,7 +16,7 @@ export default function Newspaper() {
         <Article />
         <Interview />
       </section>
-      <hr className="m-auto my-4 w-full border border-black/40" />
+      <Footer />
     </>
   );
 }
