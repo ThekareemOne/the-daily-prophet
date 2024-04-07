@@ -46,7 +46,7 @@ export default function Zodiac() {
         <div className="w-5/6 m-auto">
           <p className="font-title text-md">
             <span>
-              Tarot predictions <br /> on page 12
+              Tarot predictions <br /> on page 4
             </span>
           </p>
         </div>

@@ -14,9 +14,9 @@ export default function Date() {
       <div className="w-1/2 m-auto">
         <p className="font-title text-md">
           Saturday,
-          <br /> Nobember 13th 1998 <br /> Daily Prohpet <br /> Evening Edition{" "}
+          <br /> July 31th 1996 <br /> Daily Prohpet <br /> Evening Edition{" "}
           <br />
-          Issue #49104
+          Issue #4539
         </p>
       </div>
     </div>
