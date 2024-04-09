@@ -46,7 +46,7 @@ export default function Dots() {
   return (
     <instancedMesh ref={instancedRef} args={[null, null, 10000]}>
       <circleBufferGeometry args={[0.15]} />
-      <meshBasicMaterial />
+      <meshBasicMaterial color="#a3e635" />
     </instancedMesh>
   );
 }

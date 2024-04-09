@@ -14,7 +14,7 @@ const Wrapper = () => {
   const { showScene } = useAppContext();
 
   return (
-    <div className={showScene ? "text-lime-300 bg-black" : "bg-stone-300"}>
+    <div className={showScene ? "text-lime-400 bg-black" : "bg-stone-300"}>
       <Newspaper />
       {showScene && (
         <div className="flex-grow fixed top-0 left-0 w-full h-full">
