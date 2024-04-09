@@ -1,9 +1,16 @@
 import React from "react";
+import { useAppContext } from "../AppContext";
 
 export default function Interview() {
+  const { showScene } = useAppContext();
+
   return (
-    <article className="col-span-1 font-wolf">
-      <div className="3 flex flex-col items-center justify-center border border-4 border-black py-4 px-2">
+    <article className="col-span-1 font-wolf relative z-10">
+      <div
+        className={`3 flex flex-col items-center justify-center border border-4 ${
+          showScene ? "border-lime-300" : "border-black"
+        } py-4 px-2`}
+      >
         <h1 className="text-2xl">EXCLUSIVE INTERVIEW</h1>
       </div>
       <div className="mt-6">

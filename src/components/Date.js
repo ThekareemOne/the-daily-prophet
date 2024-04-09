@@ -6,7 +6,7 @@ export default function Date() {
 
   return (
     <>
-      <div className="font-wolf flex md:w-2/12 items-center justify-center text-sm font-bold">
+      <div className="font-wolf flex md:w-2/12 items-center justify-center text-sm font-bold relative z-10">
         <div className="w-1/2">
           <img
             src="/assets/illuminati.png"

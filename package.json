@@ -7,6 +7,7 @@
     "@react-three/fiber": "^8.0.11",
     "@splinetool/loader": "^0.9.366",
     "@splinetool/r3f-spline": "^1.0.1",
+    "hex-rgb": "^5.0.0",
     "html2canvas": "^1.4.1",
     "lerp": "^1.0.3",
     "leva": "^0.9.35",
@@ -16,7 +17,8 @@
     "react-scripts": "5.0.1",
     "tailwindcss": "^3.4.3",
     "three": "^0.149.0",
-    "three-custom-shader-material": "^5.4.0"
+    "three-custom-shader-material": "^5.4.0",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-scripts start",

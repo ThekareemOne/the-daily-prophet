@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Title() {
   return (
-    <section className="bg-stone-300 py-5">
+    <section className="py-5 relative z-10">
       <h1 className="text-center font-wolf text-xxl font-black">
         ESCAPE FROM AZKABAN
       </h1>

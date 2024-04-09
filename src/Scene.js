@@ -1,18 +1,11 @@
-import { Canvas } from "@react-three/fiber";
 import React from "react";
-import Experience from "./Experience";
+import { Canvas } from "@react-three/fiber";
+import Dots from "./components/Dots";
 
 export default function Scene() {
   return (
-    <Canvas
-      camera={{
-        fov: 45,
-        near: 0.1,
-        far: 200,
-        position: [4, -2, 6],
-      }}
-    >
-      <Experience />
+    <Canvas orthographic camera={{ zoom: 20 }}>
+      <Dots />
     </Canvas>
   );
 }

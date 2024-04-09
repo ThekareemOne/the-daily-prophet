@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Zodiac() {
   return (
-    <div className="md:w-2/12 text-center md:text-left">
+    <div className="md:w-2/12 text-center md:text-left relative z-10">
       <p className="font-wolf  text-xl font-bold">
         Zodiac{" "}
         <span>

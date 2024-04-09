@@ -1,16 +1,27 @@
 import React from "react";
+import { useAppContext } from "../AppContext";
 
 export default function Article() {
+  const { showScene } = useAppContext();
+
   return (
-    <article className="col-span-1 font-wolf">
+    <article className="col-span-1 font-wolf relative z-10">
       <h1 className="text-center font-wolf text-3xl font-bold italic">
         Have you seen this wizard?
       </h1>
-      <hr className="m-auto my-4 w-[150px] border-2 border-black" />
+      <hr
+        className={`m-auto my-4 w-[150px] border-2 ${
+          showScene ? "border-lime-300" : "border-black"
+        }`}
+      />
       <h1 className="mt-3 text-center text-md font-bold italic">
         Sirius Black is the only person to have escaped Azkaban without any aid!
       </h1>
-      <hr className="m-auto my-4 w-[150px] border-2 border-black" />
+      <hr
+        className={`m-auto my-4 w-[150px] border-2 ${
+          showScene ? "border-lime-300" : "border-black"
+        }`}
+      />
       <div>
         <h1 className="text-center font-wolf text-xl font-bold">
           By Karim Hisham
