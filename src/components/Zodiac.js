@@ -3,7 +3,7 @@ import React from "react";
 export default function Zodiac() {
   return (
     <div className="md:w-2/12 text-center md:text-left">
-      <p className="font-title  text-xl font-bold">
+      <p className="font-wolf  text-xl font-bold">
         Zodiac{" "}
         <span>
           <img
@@ -15,7 +15,7 @@ export default function Zodiac() {
         </span>{" "}
         Aspects
       </p>
-      <p className="font-title text-md">
+      <p className="font-wolf text-md">
         <span>
           <img
             src="/assets/scorpio.png"
@@ -44,7 +44,7 @@ export default function Zodiac() {
           />
         </div>
         <div className="w-5/6 m-auto">
-          <p className="font-title text-md">
+          <p className="font-wolf text-md">
             <span>
               Tarot predictions <br /> on page 4
             </span>

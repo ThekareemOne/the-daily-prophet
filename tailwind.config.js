@@ -3,8 +3,13 @@ module.exports = {
   theme: {
     fontFamily: {
       title: ["Fondamento", "sans-serif"],
+      wolf: ["Fleisch-Wolf"],
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        xxl: "7rem",
+      },
+    },
   },
   plugins: [],
 };

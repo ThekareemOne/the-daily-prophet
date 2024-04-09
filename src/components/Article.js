@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Article() {
   return (
-    <article className="col-span-1">
-      <h1 className="text-center font-serif text-3xl font-bold italic">
+    <article className="col-span-1 font-wolf">
+      <h1 className="text-center font-wolf text-3xl font-bold italic">
         Have you seen this wizard?
       </h1>
       <hr className="m-auto my-4 w-[150px] border-2 border-black" />
@@ -12,10 +12,10 @@ export default function Article() {
       </h1>
       <hr className="m-auto my-4 w-[150px] border-2 border-black" />
       <div>
-        <h1 className="text-center font-serif text-xl font-bold">
+        <h1 className="text-center font-wolf text-xl font-bold">
           By Karim Hisham
         </h1>
-        <p className="first-letter:font-serif first-letter:text-3xl">
+        <p className="first-letter:font-wolf first-letter:text-3xl">
           The Ministry of Magic announced late last night that there has been a
           mass breakout from Azkaban.
         </p>

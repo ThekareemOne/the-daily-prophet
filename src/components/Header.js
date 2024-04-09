@@ -8,10 +8,10 @@ export default function Header() {
       <nav className="flex flex-col md:flex-row  gap-3 items-center justify-around  bg-stone-300 py-5 px-4 border-b-8 border-black border-double">
         <Zodiac />
         <div>
-          <h1 className="font-title text-center text-6xl font-bold text-black">
+          <h1 className="font-wolf text-center text-6xl font-bold text-black">
             THE DAILY PROPHET
           </h1>
-          <h1 className="font-title text-center text-md flex items-center justify-center">
+          <h1 className="font-wolf text-center text-md flex items-center justify-center">
             <img
               src="/assets/star.png"
               alt="star"

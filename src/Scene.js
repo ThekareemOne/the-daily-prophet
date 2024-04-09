@@ -1,13 +1,18 @@
-import { Html } from "@react-three/drei";
-import Newspaper from "./Newspaper";
-import Title from "./Title";
+import { Canvas } from "@react-three/fiber";
+import React from "react";
+import Experience from "./Experience";
 
-export default function Scene({ mouse }) {
+export default function Scene() {
   return (
-    <>
-      <Html fullscreen>
-        <Newspaper />
-      </Html>
-    </>
+    <Canvas
+      camera={{
+        fov: 45,
+        near: 0.1,
+        far: 200,
+        position: [4, -2, 6],
+      }}
+    >
+      <Experience />
+    </Canvas>
   );
 }

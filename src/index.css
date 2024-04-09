@@ -12,6 +12,11 @@
     src: url(fonts/Fondamento.woff2) format("woff2");
   }
 
+  @font-face {
+    font-family: "Fleisch-Wolf";
+    src: url(fonts/Fleisch-Wolf.ttf) format("truetype");
+  }
+
   :root {
     --color-text: black;
     --color-bg: rgb(214 211 209);
