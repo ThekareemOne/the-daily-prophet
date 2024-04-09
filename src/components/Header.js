@@ -20,7 +20,7 @@ export default function Header() {
           </h1>
           <h1 className="font-wolf text-center text-md flex items-center justify-center">
             <img
-              src="/assets/star.png"
+              src={`/assets/star${showScene ? "_green.svg" : ".png"}`}
               alt="star"
               width="20px"
               className="inline mb-1"
@@ -29,7 +29,7 @@ export default function Header() {
               THE WIZARD WORLD'S BEGULLING BROADSHEET OF CHOICE
             </span>
             <img
-              src="/assets/star.png"
+              src={`/assets/star${showScene ? "_green.svg" : ".png"}`}
               alt="star"
               width="20px"
               className="inline mb-1"

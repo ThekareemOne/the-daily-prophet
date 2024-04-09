@@ -2,14 +2,14 @@ import React from "react";
 import { useAppContext } from "../AppContext";
 
 export default function Date() {
-  const { toggleScene } = useAppContext();
+  const { showScene, toggleScene } = useAppContext();
 
   return (
     <>
       <div className="font-wolf flex md:w-2/12 items-center justify-center text-sm font-bold relative z-10">
         <div className="w-1/2">
           <img
-            src="/assets/illuminati.png"
+            src={`/assets/illuminati${showScene ? "_green.svg" : ".png"}`}
             alt="caner"
             width="80px"
             className="inline cursor-pointer"
