@@ -6,11 +6,6 @@ module.exports = {
       title: ["Fondamento", "sans-serif"],
       wolf: ["Fleisch-Wolf"],
     },
-    extend: {
-      fontSize: {
-        xxl: "7rem",
-      },
-    },
   },
   plugins: [],
 };
