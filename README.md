@@ -2,7 +2,7 @@
 
 This project is a recreation of the famous newspaper from the Harry Potter series, The Daily Prophet, using React, Tailwind, and React Three Fiber.
 
-## [Live Demo]
+## Live Demo
 
 [thedailyprophet.bykarimhisham.com](https://thedailyprophet.bykarimhisham.com/)
 
