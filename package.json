@@ -5,6 +5,7 @@
   "dependencies": {
     "@react-three/drei": "^9.4.2",
     "@react-three/fiber": "^8.0.11",
+    "@react-three/postprocessing": "^2.16.2",
     "@splinetool/loader": "^0.9.366",
     "@splinetool/r3f-spline": "^1.0.1",
     "hex-rgb": "^5.0.0",
