@@ -11,6 +11,7 @@ export default function Hero() {
           showScene ? "border-lime-300" : "border-black"
         }`}
         src="/assets/azkaban.jpeg"
+        alt=""
       />
     </article>
   );
